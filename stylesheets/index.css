@@ -37,7 +37,7 @@ a, p, ul, li, ol, img, h1, h3, h4, form, dl, dd, dt, input {
 
 .logo
 {
-	background: url("../images/fisheye/fisheye_logo.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: url("../images/nine/nine-logo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     /*display: inline;*/
     float: left;
     height: 100%;
@@ -63,7 +63,7 @@ a, p, ul, li, ol, img, h1, h3, h4, form, dl, dd, dt, input {
 
 .phoneimg
 {
-	background: url("../images/fisheye/phoneWithFishEye.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: url("../images/nine/phoneWithNine.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     /*display: inline;*/
     float: left;
     height: 100%;
@@ -81,36 +81,39 @@ a, p, ul, li, ol, img, h1, h3, h4, form, dl, dd, dt, input {
 	border:0px solid black;
 }
 
-.slogan_up
-{
-	background: url("../images/fisheye/slogan.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-	margin-top:50px;
-	height:196px;
-	width:100%;
-	border:0px solid red;
+.scroll_pics {
+	margin-top: 50px;
+	height: 355px;
+	width: 535px;
+	border: 0px solid red;
+	overflow: hidden;
 }
-
-.slogan_bottom
-{
+.scroll_pics table img {
+	width: 270px;
+	height: 350px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.slogan_bottom {
 	font-size: 25px;
-    margin-top:30px;
-    text-align: center;
+	margin-top: 30px;
+	text-align: center;
 }
 
 .qrcode
 {
-	background: url("../images/fisheye/app-bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
-    height: 281px;
+	background: url("../images/nine/app-bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 165px;
     margin-top: 30px;
     padding: 17px 14px;
     width: 502px;
 }
 
 .qr {
-    background: url("../images/fisheye/qr_200.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-    height: 200px;
+    background: url("../images/nine/focus.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 85px;
     margin-top: 40px;
-    width: 200px;
+    width: 315px;
     margin-left:auto;
     margin-right:auto;
 }
