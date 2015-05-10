@@ -1,0 +1,140 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+	margin: 0px auto;
+	max-width:1920px;
+	min-width:1100px;
+}
+
+a {
+    text-decoration: none;
+}
+a, p, ul, li, ol, img, h1, h3, h4, form, dl, dd, dt, input {
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+	height:116px;
+	background:none repeat scroll 0 0 #2d2d2d;
+	border:0px solid red;
+}
+
+
+.nav-top
+{
+	height: 100%;
+    margin: 0 auto;
+    width: 1100px;
+    border:0px solid red;
+}
+
+
+.logo
+{
+	background: url("../images/fisheye/fisheye_logo.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    /*display: inline;*/
+    float: left;
+    height: 100%;
+    margin-left: 33px;
+    width: 467px;
+}
+
+.mainContainer
+{
+	height: 780px;
+	background:none repeat scroll 0 0 #f5e6c9;
+	border:1px solid #f5e6c9;
+}
+
+.content
+{
+	height: 100%;
+    margin: 0 auto;
+    width: 1100px;
+    border:0px solid red;
+}
+
+
+.phoneimg
+{
+	background: url("../images/fisheye/phoneWithFishEye.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    /*display: inline;*/
+    float: left;
+    height: 100%;
+    margin-left: 33px;
+    width: 480px;
+    border:0px solid red;
+}
+
+
+.info
+{
+	margin-left:533px;
+	width: 535px;
+	height: 100%;
+	border:0px solid black;
+}
+
+.slogan_up
+{
+	background: url("../images/fisheye/slogan.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	margin-top:50px;
+	height:196px;
+	width:100%;
+	border:0px solid red;
+}
+
+.slogan_bottom
+{
+	font-size: 25px;
+    margin-top:30px;
+    text-align: center;
+}
+
+.qrcode
+{
+	background: url("../images/fisheye/app-bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 281px;
+    margin-top: 30px;
+    padding: 17px 14px;
+    width: 502px;
+}
+
+.qr {
+    background: url("../images/fisheye/qr_200.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 200px;
+    margin-top: 40px;
+    width: 200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.footer
+{
+	height:130px;
+	width:100%;
+	border:0px solid black;
+}
+.contact
+{
+    border: 0px solid black;
+    clear: both;
+    color: #2d2d2d;
+    font: 22px/100px "微软雅黑","Microsoft Yahei","Simsun";
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+}
+
+.contact span{
+    color: #2d2d2d;
+    font: 22px/160px "微软雅黑","Microsoft Yahei","Simsun";
+}
+
